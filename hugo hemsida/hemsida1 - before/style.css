@@ -1,0 +1,52 @@
+body {
+	background-image: url(https://media1.giphy.com/media/10s421g4bUltFC/source.gif);
+	background-color: black;
+	background-repeat: repeat;
+	color: white;
+	font-family: Comic Sans MS;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	background: linear-gradient(to right, red 45%, blue 55%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  text-align: center;
+  float: center;
+}
+
+nav li a.active {
+  background-color: blue;
+}
+
+nav li a:hover:not(.active) {
+  background-color: red;
+}
+
+.center {
+	text-align: center;
+}
+
+.yellow {
+	color: yellow;
+}
