@@ -3,6 +3,10 @@ html{
 	font-family: Arial;
 }
 
+body{
+	margin: 0;
+}
+
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -19,13 +23,12 @@ html{
   grid-gap: 8px;
   background-color: rgb(60, 109, 58);
   padding: 10px;
-  grid-template-columns: 125px auto auto auto auto 175px;
+  grid-template-columns: 125px auto auto auto auto 18%;
 }
 
 main, nav, header, aside, footer{
-  background-color: rgba(255, 255, 255, 0.664);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px 0;
-  font-size: 30px;
 }
 
 /* styling for main */
@@ -33,8 +36,8 @@ main{
 	padding: 10px 10px;
 }
 
-h2{
-	font-size: 0.65em;
+main h2{
+	font-size: 25px;
 	margin: 0;
 }
 
@@ -59,8 +62,8 @@ header{
 	padding: 6px;
 }
 
-h1{
-	font-size: 1.2em;
+header h1{
+	font-size: 30px;
 }
 
 /* styling for Navegation bar*/
@@ -73,10 +76,6 @@ nav ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-}
-
-nav li{
-
 }
 
 nav li a{
@@ -92,9 +91,21 @@ nav li a{
 }
 
 nav li a:hover:not(.active){
-	background: rgb(31, 145, 41);
+	background-color: rgb(53, 53, 53);
 }
 
 nav li a.active{
-	background-color: rgb(36, 73, 129);
+	background: linear-gradient(rgb(36, 73, 129),rgb(52, 136, 192))
+}
+
+/* Footer */
+
+footer{
+	padding: 0;
+}
+
+footer p{
+	padding: 20px;
+	margin: 0;
+	font-size: 18px;
 }
