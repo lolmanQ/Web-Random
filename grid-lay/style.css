@@ -1,0 +1,100 @@
+/* här skrivs style detta är css */
+html{
+	font-family: Arial;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+	'menu main main main main right'
+	'menu main main main main right'
+    'menu footer footer footer footer footer';
+  grid-gap: 8px;
+  background-color: rgb(60, 109, 58);
+  padding: 10px;
+  grid-template-columns: 125px auto auto auto auto 175px;
+}
+
+main, nav, header, aside, footer{
+  background-color: rgba(255, 255, 255, 0.664);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* styling for main */
+main{
+	padding: 10px 10px;
+}
+
+h2{
+	font-size: 0.65em;
+	margin: 0;
+}
+
+main p{
+	font-size: 17px;
+	margin: 5px 0;
+}
+
+/* styling for aside */
+aside{
+	padding: 10px;
+}
+
+aside img{
+	height: auto;
+	width: 100%;
+}
+
+/* styling for header */
+header{
+	text-align: center;
+	padding: 6px;
+}
+
+h1{
+	font-size: 1.2em;
+}
+
+/* styling for Navegation bar*/
+nav{
+	background-color: rgb(85, 85, 85);
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li{
+
+}
+
+nav li a{
+	
+	background-color: rgb(85, 85, 85);
+	text-decoration: none;
+	font-size: 25px;
+	color:rgb(233, 233, 233);
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding: 4px 0;
+}
+
+nav li a:hover:not(.active){
+	background: rgb(31, 145, 41);
+}
+
+nav li a.active{
+	background-color: rgb(36, 73, 129);
+}
