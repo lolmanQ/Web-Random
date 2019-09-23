@@ -23,7 +23,7 @@ body{
   grid-gap: 8px;
   background-color: rgb(60, 109, 58);
   padding: 10px;
-  grid-template-columns: 125px auto auto auto auto 18%;
+  grid-template-columns: 150px auto auto auto auto 18%;
 }
 
 main, nav, header, aside, footer{
