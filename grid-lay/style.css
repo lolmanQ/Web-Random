@@ -114,7 +114,7 @@ footer p{
 
 
 /* grid container responsiv */
-@media (max-width: 700px){
+@media only screen and (max-width: 700px){
 	.grid-container{
 		grid-template-areas:
 		'header header header header header'
@@ -125,11 +125,11 @@ footer p{
 		grid-template-columns: 150px auto auto auto auto;
 	}
 	aside img{
-		width: 49%;
+		width: 48%;
 	}
 }
 
-@media (max-width: 400px){
+@media only screen and (max-width: 400px){
 	.grid-container{
 		grid-template-areas:
 		'header'
