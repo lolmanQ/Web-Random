@@ -1,0 +1,202 @@
+#mainContainer{
+ overflow-y: scroll;
+ width: 100%;
+ height: 100%;
+ background-color: #2ae0bc;
+ position: absolute;
+ left:0;
+ top:0;
+}
+
+
+.factBox{
+  width: 300px;
+  height: 200px;
+  background-color: #2cd83a;
+  position: relative;
+  display: inline-block;
+  margin: 3px;
+  vertical-align: top;
+  border-radius: 5px;
+  border: 5px #045c79 solid;
+}
+
+
+.asideBoxes{
+  background-color: #02aaf2;
+  border-radius: 10px;
+  border: 5px #045c79 solid;
+}
+
+#asideCreateBox{
+	position: fixed;
+  right: 10px;
+  bottom: 10px;
+  height: 240px;
+  width: 440px;
+  transform: translateX(100%);
+	transition: transform 2s;
+}
+
+#asideCreateBox.open {
+    transform: translateX(0);
+}
+
+#asideLoadBox{
+	position: fixed;
+  right: 10px;
+  bottom: 265px;
+  height: 80px;
+  width: 440px;
+  transform: translateX(100%);
+	transition: transform 2s;
+}
+
+#asideLoadBox.open {
+  transform: translateX(0);
+}
+
+
+.asideCreateTitel{
+	position: absolute;
+	top:20px;
+	left:40px;
+}
+.asideCreateMainText{
+	position: absolute;
+  top:55px;
+  left:20px;
+  height:150px;
+  width:230px;
+  text-align:top;
+}
+
+.asideCreateUrl{
+	position: absolute;
+	top:100px;
+	left:270px;
+	width:150px;
+}
+
+.asideCreateButton{
+	height:30px;
+	width:80px;
+	position:absolute;
+	top:165px;
+	left:300px;
+}
+
+.asideCreateBoxToggleCss{
+	height: 60px;
+	width: 10px;
+	left:-10px;
+	top:95px;
+	border-radius: 10px;
+	position: absolute;
+}
+
+
+
+
+#loadFormSelect{
+	width:70px;
+	height:25px;
+	position:absolute;
+	top:10px;
+	left:300px;
+}
+
+.asideStartLoadButton{
+	height:25px;
+	width:50px;
+	position:absolute;
+	top:10px;
+	left:375px;
+}
+
+.asideReloadSavesButton{
+	height:25px;
+	width:55px;
+	position:absolute;
+	top:40px;
+	left:370px;
+}
+
+.asideRemoveSaveButton{
+	height:25px;
+	width:65px;
+	position:absolute;
+	top:40px;
+	left:300px;
+}
+
+
+.asideSelectFileButton{
+	height:25px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+.asideLoadFileButton{
+	height:25px;
+	width:65px;
+	position:absolute;
+	top:40px;
+	left:10px;
+}
+
+.asideDownloadButton{
+	height:25px;
+	width:70px;
+	position:absolute;
+	top:40px;
+	left:80px;
+}
+
+.asideLoadBoxToggleCss{
+	height: 60px;
+	width: 10px;
+	left:-10px;
+	top:10px;
+	border-radius: 10px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+.titleText{
+  margin: 3px;
+  text-align: center;
+}
+
+.mainText{
+  height: auto;
+  width: auto;
+  margin: 5px;
+}
+
+.imgElement{
+  float:right;
+  height: 100px;
+  width: auto;
+  margin: 3px;
+}
+
+.saveButton{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.removeButton{
+  position: absolute;
+  bottom: 5px;
+  left: 55px;
+}
+
+

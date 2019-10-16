@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="projekt.css" rel="stylesheet">
+    <link rel="icon" href="smile.png">
+    <title>Facts 2</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+  <main id="mainContainer">
+	
+  </main>
+	
+	
+  <aside class="asideBoxes" id="asideLoadBox">
+  	<button class="asideLoadBoxToggleCss" onclick="asideLoadBoxToggle()"></button>
+		<form id="loadForm">
+      <select id="loadFormSelect">
+        <option value="None">None</option>
+      </select>
+    </form>
+    <button onclick="startLoad()" class="asideStartLoadButton">Load</button>
+    <button onclick="reloadSaves()" class="asideReloadSavesButton">Reload</button>
+    <button onclick="removeSave()" class="asideRemoveSaveButton">Remove</button>
+    
+    <input class="asideSelectFileButton" type="file" name="myFile" id="idFile" onchange="readFile(getFile())">
+    <button class="asideLoadFileButton" onclick="load_file()">Load file</button>
+    <button class="asideDownloadButton" onclick="download_selected()">Download</button>
+  </aside>
+	
+  <aside class="asideBoxes" id="asideCreateBox">
+    <button class="asideCreateBoxToggleCss" onclick="asideCreateBoxToggle()"></button>
+    <form id="fBoxForm">
+      <input class="asideCreateTitel" type="text" placeholder="Title" value="">
+      <textarea class="asideCreateMainText" placeholder="Main text" value=""></textarea>
+      <textarea class="asideCreateUrl" placeholder="Img (Optional)" value=""></textarea>
+    </form>
+    <button onclick="makeFBox()" class="asideCreateButton">Make box</button>
+  </aside>
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
